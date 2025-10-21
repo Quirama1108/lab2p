@@ -1,6 +1,7 @@
 # lab2p
 
 [![CI/CD Pipeline](https://github.com/Quirama1108/lab2p/actions/workflows/build.yml/badge.svg)](https://github.com/Quirama1108/lab2p/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Quirama1108_lab2p&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Quirama1108_lab2p)
 
 Implementation of a Simple App with the next operations:
 
