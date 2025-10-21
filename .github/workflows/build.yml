@@ -118,14 +118,14 @@ jobs:
           #Set artifact name
           name: artifact
           #From this path
-          path: target/lab2p-0.0.1-SNAPSHOT.jar
+          path: target/lab2p.jar
 
-     # - name: Build & push Docker image
-      #  uses: mr-smithers-excellent/docker-build-push@v6
-       # with:
-        #  image: dbotiaudea/labcicd
-         # tags: latest
-          #registry: docker.io
-          #dockerfile: Dockerfile
-          #username: ${{ secrets.DOCKER_USERNAME }}
-          #password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build & push Docker image
+        uses: mr-smithers-excellent/docker-build-push@v6
+        with:
+          image: quirama11/lab2p
+          tags: latest
+          registry: docker.io
+          dockerfile: Dockerfile
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
