@@ -39,7 +39,7 @@ class Lab2pApplicationTests {
 
 
     @Test
-    public void testRandomCurrenciesCodeFormat(){
+    void testRandomCurrenciesCodeFormat(){
         DataController controller = new DataController();
         JsonNode response = controller.getRadomCurrencies();
 
@@ -52,7 +52,7 @@ class Lab2pApplicationTests {
     }
 
     @Test
-    public void testRandomNationsPerformance(){
+    void testRandomNationsPerformance(){
         DataController controller = new DataController();
         long startTime= System.currentTimeMillis();
         controller.getRadomNation();

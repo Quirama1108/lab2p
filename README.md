@@ -1,6 +1,6 @@
 # lab2p
 
-
+[![CI/CD Pipeline](https://github.com/Quirama1108/lab2p/actions/workflows/build.yml/badge.svg)](https://github.com/Quirama1108/lab2p/actions/workflows/build.yml)
 
 Implementation of a Simple App with the next operations:
 
