@@ -15,7 +15,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copiar el JAR generado desde la etapa de build
-COPY --from=build /app/target/lab2p-0.0.1-SNAPSHOT.jar lab2p.jar
+COPY --from=build /app/target/lab2p.jar lab2p.jar
 
 # Exponer el puerto del backend
 EXPOSE 8080
